@@ -356,7 +356,7 @@ h1 {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    transform: translateY(0%);
+
 }
 
 .portfolio_items {
@@ -371,6 +371,7 @@ h1 {
 }
 
 .imeges-portfolio {
+    transform: translateY(0%);
     position: relative;
     overflow: hidden;
 }
