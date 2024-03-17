@@ -131,7 +131,8 @@ address {
     color: #434455;
     display: flex;
     gap: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ;
 }
 
 .address_item:hover,
@@ -167,6 +168,7 @@ h1 {
 
 
 .first_button {
+    background-color: #4D5AE5;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -181,6 +183,9 @@ h1 {
     border-radius: 4px;
     cursor: pointer;
     margin: 0 auto;
+}
+
+.transition {
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
