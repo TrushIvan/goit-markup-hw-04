@@ -131,7 +131,8 @@ address {
     color: #434455;
     display: flex;
     gap: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ;
 }
 
 .address_item:hover,
@@ -217,7 +218,7 @@ h1 {
     width: calc((100% - 72px) / 4);
 }
 
-.icons{
+.icons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -273,7 +274,8 @@ h1 {
 }
 
 .list_section_three {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    ;
     background-color: #ffffff;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
@@ -284,18 +286,18 @@ h1 {
     padding-bottom: 32px;
 }
 
-.social-network-items{
+.social-network-items {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.social-network{
+.social-network {
     width: 40px;
     height: 40px;
 }
 
-.social-network-link{
+.social-network-link {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -303,6 +305,16 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.social-network-link:hover,
+.social-network-link:focus {
+    background-color: #404bbf;
+}
+
+.icons_social-network{
+    fill: #f4f4fd;
+    
 }
 
 .our_team_person {
