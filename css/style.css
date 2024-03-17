@@ -371,7 +371,6 @@ h1 {
 }
 
 .imeges-portfolio {
-    transform: translateY(0%);
     position: relative;
     overflow: hidden;
 }
