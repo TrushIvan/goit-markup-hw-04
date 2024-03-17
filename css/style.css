@@ -72,6 +72,7 @@ address {
 .header_navigation_item.header_navigation_item-first {
     position: relative;
     color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header_navigation_item-first::after {
@@ -113,7 +114,6 @@ address {
 
 .header_navigation_item:hover,
 .header_navigation_item:focus {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
 }
 
