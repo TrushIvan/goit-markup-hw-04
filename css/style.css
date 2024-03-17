@@ -370,7 +370,7 @@ h1 {
     transform: translateY(0%);
 }
 
-.imeges-portfolio:hover, .imeges-portfolio:focus{
+.imeges-portfolio{
     position: relative;
     overflow: hidden;
 }
