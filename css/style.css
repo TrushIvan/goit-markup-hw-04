@@ -313,7 +313,7 @@ h1 {
     background-color: #404bbf;
 }
 
-.icons_social-network{
+.icons_social-network {
     fill: #f4f4fd;
 }
 
@@ -363,7 +363,8 @@ h1 {
     width: calc((100% - 48px) / 3);
 }
 
-.portfolio_items:hover{
+.portfolio_items:hover,
+.portfolio_items:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
