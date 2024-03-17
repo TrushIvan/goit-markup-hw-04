@@ -427,6 +427,11 @@ h1 {
     margin-bottom: 16px;
 }
 
+.social-network-items-footer{
+    display: flex;
+    gap: 16px;
+}
+
 .footer {
     background-color: #2e2f42;
     padding-top: 100px;
