@@ -69,9 +69,12 @@ address {
     gap: 40px;
 }
 
+.header_navigation_item.header_navigation_item-first {
+    position: relative;
+    color: #404bbf;
+}
 
-
-.header_navigation_item-first::after { 
+.header_navigation_item-first::after {
     content: "";
     width: 100%;
     position: absolute;
@@ -80,7 +83,6 @@ address {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    
 }
 
 .header_navigation_link {
@@ -107,8 +109,6 @@ address {
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
-    position: relative;
-    color: #404bbf;
 }
 
 .header_navigation_item:hover,
