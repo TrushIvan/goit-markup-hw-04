@@ -450,6 +450,11 @@ h1 {
     margin-bottom: 16px;
 }
 
+.social-network-link_footer:hover,
+.social-network-link_footer:focus{
+    background-color: #31d0aa;
+}
+
 .footer_logo {
     display: inline-block;
     margin-bottom: 16px;
