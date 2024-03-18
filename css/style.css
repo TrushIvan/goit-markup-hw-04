@@ -370,7 +370,6 @@ h1 {
 }
 
 .portfolio_items:hover,
-.portfolio_items:focus,
 .hover_img {
     transform: translateY(0%);
 }
