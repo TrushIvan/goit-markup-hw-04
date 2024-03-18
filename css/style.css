@@ -371,7 +371,7 @@ h1 {
 
 .portfolio_items:hover,
 .hover_img {
-    transform: translateY (0)
+    transform: translateY (0);
 }
 
 .imeges-portfolio {
